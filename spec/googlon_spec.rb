@@ -1,6 +1,9 @@
 require 'spec_helper'
 
 describe Googlon do
+  let(:text_a) { File.read("spec/fixtures/text_a.txt") }
+  let(:text_b) { File.read("spec/fixtures/text_b.txt") }
+
   context "constants" do
     it { Googlon::FOO.should == %w(z g v h b) }
     it { Googlon::BAR.should == %w(a c d e f i j k l m n o p q r s t u x y w) }
@@ -22,8 +25,6 @@ describe Googlon do
 
   context "prepositions" do
     it "should have 62 prepositions in text a" do
-      text_a = File.read("spec/fixtures/text_a.txt")
-
       preps = 0
       text_a.split(" ").each do |word|
         preps +=1 if Googlon.is_preposition?(word)
@@ -33,8 +34,6 @@ describe Googlon do
     end
 
     it "should have 65 prepositions in text b" do
-      text_b = File.read("spec/fixtures/text_b.txt")
-
       preps = 0
       text_b.split(" ").each do |word|
         preps += 1 if Googlon.is_preposition?(word)
