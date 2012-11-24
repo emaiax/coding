@@ -19,4 +19,19 @@ class Googlon
     arr = word.split('')
     return (arr.length == 4) && bar?(arr.last) && !arr.include?("h")
   end
+
+  #
+  # os verbos sempre são palavras de 8 ou mais letras
+  # que terminam numa letra tipo bar.
+  # Além disso, se um verbo começa com uma letra tipo foo, o verbo está em primeira pessoa.
+  #
+  def self.is_verb?(word)
+    arr = word.split('')
+    return (arr.length >= 8) && bar?(arr.last)
+  end
+
+  def self.is_first_person_verb?(word)
+    arr = word.split('')
+    return is_verb?(word) && foo?(arr.first)
+  end
 end

@@ -42,4 +42,46 @@ describe Googlon do
       preps.should eql(65)
     end
   end
+
+  context "verbs" do
+    describe "common verbs" do
+      it "should have 67 verbs in text a" do
+        verbs = 0
+        text_a.split(" ").each do |word|
+          verbs +=1 if Googlon.is_verb?(word)
+        end
+
+        verbs.should eql(67)
+      end
+
+      it "should have 67 verbs in text b" do
+        verbs = 0
+        text_b.split(" ").each do |word|
+          verbs +=1 if Googlon.is_verb?(word)
+        end
+
+        verbs.should eql(83)
+      end
+    end
+
+    describe "first person verbs" do
+      it "should have 15 first person verbs in text a" do
+        verbs = 0
+        text_a.split(" ").each do |word|
+          verbs +=1 if Googlon.is_first_person_verb?(word)
+        end
+
+        verbs.should eql(15)
+      end
+
+      it "should have 15 first person verbs in text b" do
+        verbs = 0
+        text_b.split(" ").each do |word|
+          verbs +=1 if Googlon.is_first_person_verb?(word)
+        end
+
+        verbs.should eql(21)
+      end
+    end
+  end
 end
