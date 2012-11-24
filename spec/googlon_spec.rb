@@ -12,13 +12,13 @@ describe Googlon do
   context "foo/bar" do
     it "its a foo letter" do
       Googlon::FOO.each do |letter|
-        Googlon.foo?(letter).should be_true
+        Googlon.is_foo?(letter).should be_true
       end
     end
 
     it "its a bar letter" do
       Googlon::BAR.each do |letter|
-        Googlon.bar?(letter).should be_true
+        Googlon.is_bar?(letter).should be_true
       end
     end
   end

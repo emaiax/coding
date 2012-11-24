@@ -2,11 +2,17 @@ class Googlon
   FOO = %w(z g v h b)
   BAR = %w(a c d e f i j k l m n o p q r s t u x y w)
 
-  def self.foo?(letter)
+  #
+  # verifica se a letra é do tipo FOO
+  #
+  def self.is_foo?(letter)
     FOO.include? letter
   end
 
-  def self.bar?(letter)
+  #
+  # verifica se a letra é do tipo FOO
+  #
+  def self.is_bar?(letter)
     BAR.include? letter
   end
 
@@ -17,7 +23,7 @@ class Googlon
   #
   def self.is_preposition?(word)
     arr = word.split('')
-    return (arr.length == 4) && bar?(arr.last) && !arr.include?("h")
+    return (arr.length == 4) && is_bar?(arr.last) && !arr.include?("h")
   end
 
   #
@@ -27,11 +33,11 @@ class Googlon
   #
   def self.is_verb?(word)
     arr = word.split('')
-    return (arr.length >= 8) && bar?(arr.last)
+    return (arr.length >= 8) && is_bar?(arr.last)
   end
 
   def self.is_first_person_verb?(word)
     arr = word.split('')
-    return is_verb?(word) && foo?(arr.first)
+    return is_verb?(word) && is_foo?(arr.first)
   end
 end
