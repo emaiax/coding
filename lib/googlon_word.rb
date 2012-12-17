@@ -1,5 +1,7 @@
 class GooglonWord
   FOO = %w(z g v h b)
+  ALPHABET = %(q r v c h f t d b j m z k s n x w l g p)
+  MULTIPLIER = 20
 
   attr_reader :word
 
@@ -7,8 +9,21 @@ class GooglonWord
     @word = word
   end
 
-  def to_s
-    word
+  def to_i
+    sum, index = 0, 0
+
+    word.chars do |letter|
+      # encontra o valor representado da letra a partir do alfabeto
+      #
+      position = ALPHABET.index(letter) / 2
+
+      # multiplica a posição pelo índice
+      #
+      sum += (position * (MULTIPLIER ** index))
+      index += 1
+    end
+
+    return sum
   end
 
   #
