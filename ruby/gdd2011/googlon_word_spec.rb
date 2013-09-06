@@ -1,4 +1,5 @@
-require 'spec_helper'
+require_relative '../spec_helper'
+require_relative 'googlon_word'
 
 describe GooglonWord do
   context "constants" do

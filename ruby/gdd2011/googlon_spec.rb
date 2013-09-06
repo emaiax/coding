@@ -1,9 +1,10 @@
-require 'spec_helper'
+require_relative '../spec_helper'
+require_relative 'googlon'
 
 describe Googlon do
-  let(:text_a) { File.read("spec/fixtures/text_a.txt") }
-  let(:text_b) { File.read("spec/fixtures/text_b.txt") }
-  let(:vocabulary_a) { File.read("spec/fixtures/text_b.txt") }
+  let(:text_a) { File.read("gdd2011/fixtures/text_a.txt") }
+  let(:text_b) { File.read("gdd2011/fixtures/text_b.txt") }
+  let(:vocabulary_a) { File.read("gdd2011/fixtures/text_b.txt") }
 
   context "#methods" do
     it "should find prepositions" do
