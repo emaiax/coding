@@ -1,5 +1,5 @@
-require 'spec_helper'
-require './project_euler/problem4.rb'
+require_relative 'problem4.rb'
+require_relative '../spec_helper'
 
 describe Euler::Problem4 do
   subject { described_class }
