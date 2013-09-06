@@ -48,6 +48,16 @@ class GooglonWord
     return verb? && foo?(word[0])
   end
 
+  #
+  # um número bonito:
+  #
+  # é maior ou igual a 566839
+  # é divisível por 4
+  #
+  def beauty_number?
+    to_i >= 566839 && to_i % 4 == 0
+  end
+
   private
 
   #

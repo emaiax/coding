@@ -21,5 +21,10 @@ describe Googlon do
       Googlon.new(text_a).first_person_verbs.should have(15).items
       Googlon.new(text_b).first_person_verbs.should have(21).items
     end
+
+    it "should find beauty numbers" do
+      Googlon.new(text_a).beauty_numbers.uniq.should have(83).items
+      Googlon.new(text_b).beauty_numbers.uniq.should have(81).items
+    end
   end
 end

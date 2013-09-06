@@ -1,3 +1,4 @@
+require 'pry'
 require_relative '../spec_helper'
 require_relative 'googlon_word'
 
@@ -41,6 +42,16 @@ describe GooglonWord do
     describe "as number" do
       it "should return number value" do
         GooglonWord.new("zhvk").to_i.should == 96891
+      end
+    end
+
+    describe "is beauty number?" do
+      it "should return true" do
+        GooglonWord.new("hcvtlnm").beauty_number?.should be_true
+      end
+
+      it "should return true" do
+        GooglonWord.new("zhvj").beauty_number?.should be_false
       end
     end
   end

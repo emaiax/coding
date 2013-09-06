@@ -18,4 +18,8 @@ class Googlon
   def first_person_verbs
     text.select &:first_person_verb?    
   end
+
+  def beauty_numbers
+    text.select &:beauty_number?
+  end
 end
