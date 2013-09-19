@@ -50,7 +50,7 @@ describe GooglonWord do
         GooglonWord.new("hcvtlnm").beauty_number?.should be_true
       end
 
-      it "should return true" do
+      it "should return false" do
         GooglonWord.new("zhvj").beauty_number?.should be_false
       end
     end
