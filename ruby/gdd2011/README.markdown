@@ -69,3 +69,20 @@ Ao consideramos o Texto A como uma lista de números (isto é, interpretando cad
 E no Texto B, quantos números bonitos *distintos* existem?
 
 `Resposta: No Texto B, há "__" números bonitos distintos (atenção!).`
+
+Respostas
+--------
+
+E no Texto B, quantas preposições existem?
+
+Resposta: Existem ***65*** preposições no Texto B.
+
+
+Já no Texto B, quantos são os verbos?
+
+Resposta: Há ***83*** verbos Texto B.
+
+E quantos verbos do Texto B estão em primeira pessoa?Resposta: Há ***21*** verbos em primeira pessoa no Texto B.
+
+E no Texto B, quantos números bonitos distintos existem?
+Resposta: No Texto B, há ***81*** números bonitos distintos (atenção!).
