@@ -1,7 +1,9 @@
 class GooglonWord
-  FOO = %w(z g v h b)
-  ALPHABET = %(q r v c h f t d b j m z k s n x w l g p)
+  FOO        = %w(z g v h b)
+  ALPHABET   = %(q r v c h f t d b j m z k s n x w l g p)
   MULTIPLIER = 20
+
+  include Comparable
 
   attr_reader :word
 
@@ -9,37 +11,18 @@ class GooglonWord
     @word = word
   end
 
-  def to_i
-    sum, index = 0, 0
-
-    word.chars do |letter|
-      # encontra o valor representado da letra a partir do alfabeto
-      #
-      position = ALPHABET.index(letter) / 2
-
-      # multiplica a posição pelo índice
-      #
-      sum += (position * (MULTIPLIER ** index))
-      index += 1
-    end
-
-    return sum
+  def <=>(other)
+    comparison(other)
   end
 
-  #
-  # as preposições são as palavras de 4 letras
-  # que terminam numa letra tipo bar,
-  # mas onde não ocorre a letra h.
-  #
+  def to_s
+    word
+  end
+
   def preposition?
     (word.length == 4) && bar?(word[-1]) && !word.include?("h")
   end
 
-  #
-  # os verbos sempre são palavras de 8 ou mais letras
-  # que terminam numa letra tipo bar.
-  # Além disso, se um verbo começa com uma letra tipo foo, o verbo está em primeira pessoa.
-  #
   def verb?
     (word.length >= 8) && bar?(word[-1])
   end
@@ -48,29 +31,42 @@ class GooglonWord
     return verb? && foo?(word[0])
   end
 
-  #
-  # um número bonito:
-  #
-  # é maior ou igual a 566839
-  # é divisível por 4
-  #
   def beauty_number?
     to_i >= 566839 && to_i % 4 == 0
   end
 
   private
 
-  #
-  # verifica se a letra é do tipo FOO
-  #
   def foo?(letter)
     FOO.include? letter
   end
 
-  #
-  # verifica se a letra não é do tipo FOO
-  #
   def bar?(letter)
     not FOO.include? letter
+  end
+
+  def comparison(other)
+    self_size  = self.word.length
+    other_size = other.word.length
+
+    (0...[self_size, other_size].min).each do |i|
+      comparison = ALPHABET.index(self.word[i]) <=> ALPHABET.index(other.word[i])
+      return comparison unless comparison == 0
+    end
+
+    self_size <=> other_size
+  end
+
+  def to_i
+    sum, index = 0, 0
+
+    word.chars do |letter|
+      position = ALPHABET.index(letter) / 2
+
+      sum += (position * (MULTIPLIER ** index))
+      index += 1
+    end
+
+    return sum
   end
 end
