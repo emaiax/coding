@@ -75,22 +75,20 @@ Respostas
 
 E no Texto B, quantas preposições existem?
 
-Resposta: Existem ***65*** preposições no Texto B.
-
-----
+`Resposta: Existem ***65*** preposições no Texto B.`
 
 Já no Texto B, quantos são os verbos?
 
-Resposta: Há ***83*** verbos no Texto B.
-
-----
+`Resposta: Há ***83*** verbos no Texto B.`
 
 E quantos verbos do Texto B estão em primeira pessoa?
 
-Resposta: Há ***21*** verbos em primeira pessoa no Texto B.
-
-----
+`Resposta: Há ***21*** verbos em primeira pessoa no Texto B.`
 
 E no Texto B, quantos números bonitos distintos existem?
 
-Resposta: No Texto B, há ***81*** números bonitos distintos (atenção!).
+`Resposta: No Texto B, há ***81*** números bonitos distintos (atenção!).`
+
+Como seria a lista de vocabulário do Texto B?
+
+	qqsnk qcbdnh qhzqtttd qhpw qtr qtrvg qtzcqf qdm qbr qbj qbmrfbd qzdmdv qzw qsbcdw qssvnd qsnccmv qxz qxzll qwg qljm qgpccv qpvmlfw qpjnplpv rqqm rqfbw rrvxbwr rrxb rrltrnr rrpszx rvfwqkfr rvp rcb rcztmxm rfncbfr rbcf rbft rbgq rbpcdbvj rjhp rjwcftmp rjl rknsj rshd rsx rnmjrpmt rnkljjd rnsxcq rnn rnxskv rxx rwnwwlgg rlfvjnb rlkvnr rgz rpcp rpjnzx rpnt vrtm vvrcp vhhgw vht vhn vhwqvhm vtk vdcfwzv vdcllt vdtf vdwllnh vbr vbfwtn vjzrrmkx vmp vzfwg vzgdxw vkvlv vsjwglkr vnmkr vnzf vnzzqgc vwbkd vlh vpt crb crnmls cvtqtl ccdkcps ccmfhxdb cfrlqmq cffs cfzfv cbczccw cbt cbgrv cjhm cjdpbn cjx cmst czscsnnp ckjgt ckmjvhgq cst cxfwtpfl cxmmk cxlngspf cwjjg clf clfmqjh clnnxrgm cpzw hrmfdl hcbmp hhrgn hhgqn hfrnqhl htfd hbngf hjqmr hjrvk hjd hjwrxr hmwc hzh hzwfc hkrsdzrs hkx hkpdbbr hnrxkj hxl hwvljd hwpt hpqcs hpxdlqks fqbq fqmcmp fqsjt fqngfcb fqlvbct fqpmk frfzvgb frxwmhz fvd fvjc fhctkrgd fhhrkj fhttdjgf ftvtxfwb ftdrj fdrq fdbcxjx fdgrjl fbcjckjp fbhn fbsd fjtsndgz fjntv fjnth fzdct fzjsgfs fzpkdt fscfgw flnnclgx flwvdsb fgrsl trhwg tcc thcfp thwwhrw tfffp ttbghc tdvjbts tdmnmkc tbrh tbdjxbmm tbsr tjqf tjcwtcq tmzncdtk tmwwg tmpkn tzcblq tzmqj tzmzmjv tkfds tnq txfqczqc txszwgdk twhtqjd twf tpbgs tpzgsn drdpxnr drbsbvm dvmndflc dcbldr dhmrw dfdvn dflrfhn dthbx dtdnqvsj ddqsw ddqnxs ddfrm ddbqxsj ddwrmf dbqj djmttc djsmfw dmcbgdgv dmkc dmnhsrdf dzq dzqrkps dsfqlm dnxgnhl dxmz dxzjkw dlp dgmn dgs dglv dgpc brtkc bcv bcfj bcsb bhvqfg bfd bfd btdhcxt btmvgxr bbd bmcbzkgs bstvrhjd bskzxfgk bntfljrn bnmhp bxr bxt bwcww bwjrvsr bldvmpp blpkm blppctbh bgvmdjhl bgdxhhx bgmpkmcg bgkt bgkgmj bpckdl bpllfdb jqmfbvk jrv jvvxbmhs jvfggqrt jcjdppw jcwnbhqd jhcvw jhb jtbsx jbg jmchrm jkc jkdmlngs jscqrwwd jnt jnslzt jwj jlmzc jlpn jggmzmdp jgp jpvf jpl mqkbgm mqpgt mrht mrdf mrbsjbdh mrghnpbx mcq mcxscwjz mhvqxcq mfrl mfckgtv mfdbttn mfldddf mtrwrvt mdqjlbjk mbjqqk mbpsxq mjvxsw mjwxps mmnkfdd msq mssbg mnt mntzrpll mnkckrmc mnwf mwdnlrwm mwxhlqdx mwwpm mlr mlmbvtn mln mlnf mgmbctsj mplvsmxr zchcb zchtzdwq zcbld zftkwlt zfbw zfmsm ztvtrs zthfpf ztgwlbx zdvfvds zdd zddtpphl zbftkct zjrqfvtm zjjkr zjzkshg zjsrk zmqcn zmqfljjg zmxv zmxjnd zztnwmbx zkvcd zkvfgh zkvw zshw zsxm zndnvcv znk znnt zxds zxnnzw zlqrbh zplbsgb zpg kqlwvq krq krfqj krflggfd krmvkvxc kcvgblc khj khmd khzrcrrt kfls kfgrptw kfpcvdxm ktm kbjnj kmv kzksl kkthvs ksvd ksxjz kngjmvjf kxhsgct klfgtqw kgcz kgzhjr kprhgts kpndxjcn sqkcmc srrvbh srchf srsjmhq svvc svw scpkqxjk sfv sff sfkr stbkrg stgztbvs stp stpwp sdjwzm sdkchhg sdxszb sdxprsqk sbhlh sbjwxnnx sbkr sbszxnbc sjltp smhxvvwr smjzf smszrw smgg szrrj sztqgs sxxqwk swfpmtfh slj sgqhznlk spvq nqmdlgkp nrpnn nvfr nvjk nvksgj nvptw ncdfz ncbhc nfvlw nfnq nfxhg nfwdlw ntf ntbkfxz ntlcpjh nbrvs njtcgns njbtmgh nkm nknnkr nsw nswm nnrfvddn nntk nnjrcrr nnjb nnzts nnpljw nws nwstz nlx npngdj npp xqq xqhv xqt xqkbmzhq xqww xrrt xrw xcnqkkp xhgk xfrxrcfh xfz xddm xdkjhgq xmd xmzx xzhjrd xzgtn xkxjcb xkwfgqrx xkgrtq xnbx xnjn xnnxsfq xnl xxrmghc xxhlxwp xxbxcj xwrjtgz xwfmc xwgkxd xlxcd xgbnmrh xpvg xpcbtv wrfsvrg wrsg wvvgswz wvmvc wvzxdf wclkfd whhdbpc wfx wfxcvvvr wtbm wtkhbh wmcx wms wzndbg wkhdb wsrwfnp wnvhzfh wnk wxdn wxbgq wwhxt wlkhbz wlnvv wlwkx wlpmtn wgnbvv wpxx lqmvxgc lrrtfbqv lrtltwtz lcsrqchw lcxtxmw lcptnxv lfdqz ltfpzvkw ldfgvlqd ldgsrmxw lbqtpj lbcrnj lbprxzn ljfkp ljgzcvts lzrh lzctbz lzjt lkbjjk lkl lntcq lxd lxkpw lxsxhjkv lxwqtf lwtrw lgcb lpqzwst gqcmfhvj gqfzpkx gqx gqg grffsjv grxfbmlk gcs gcs gcsg gcgcmp ghdnpk gfqv gtqprsfl gtfgdv gtwhgtkq gbh gbtx gjmkhgdl gjnnqj gmhmjcqb gmxzcc gmlfvh gzmnbz gzzx gznfrtf gkrnl gkhw gkz gkgsbnl gsvqcqfd gsfq gsz gntb gxrnvnqp gxxsswc gxg gwmjwh glbc ggqbmd ggzj ggwftnp ggwbsrm gprzsctw gph gptwqnj pqtv prhwxgl prtq pvxv phjv phnk phnnht pfvsffn pfhtwmpf ptjqkvgt ptzvjj pdkxmq pjrclvw pjv pjd pmrvhbtk pmrjv pzkfcd pzkpnr psc pswmx pnc pnhdr pxnv pxgr pxp plglc pgqjmtxm pgr ppmmw
