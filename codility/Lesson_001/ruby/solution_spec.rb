@@ -1,4 +1,4 @@
-require_relative "../../spec_helper"
+require_relative "../../../spec_helper"
 
 def solution(n)
   n.to_s(2).scan(/(?<=1)0+(?=1)/).map(&:length).max || 0
