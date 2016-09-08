@@ -28,7 +28,7 @@ class GooglonWord
   end
 
   def first_person_verb?
-    return verb? && foo?(word[0])
+    verb? && foo?(word[0])
   end
 
   def beauty_number?
@@ -38,19 +38,19 @@ class GooglonWord
   private
 
   def foo?(letter)
-    FOO.include? letter
+    FOO.include?(letter)
   end
 
   def bar?(letter)
-    not FOO.include? letter
+    !FOO.include?(letter)
   end
 
   def comparison(other)
-    self_size  = self.word.length
+    self_size  = word.length
     other_size = other.word.length
 
     (0...[self_size, other_size].min).each do |i|
-      comparison = ALPHABET.index(self.word[i]) <=> ALPHABET.index(other.word[i])
+      comparison = ALPHABET.index(word[i]) <=> ALPHABET.index(other.word[i])
       return comparison unless comparison == 0
     end
 
@@ -58,15 +58,16 @@ class GooglonWord
   end
 
   def to_i
-    sum, index = 0, 0
+    sum   = 0
+    index = 0
 
     word.chars do |letter|
       position = ALPHABET.index(letter) / 2
 
-      sum += (position * (MULTIPLIER ** index))
+      sum += (position * (MULTIPLIER**index))
       index += 1
     end
 
-    return sum
+    sum
   end
 end
