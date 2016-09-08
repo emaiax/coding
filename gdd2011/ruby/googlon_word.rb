@@ -19,6 +19,10 @@ class GooglonWord
     word
   end
 
+  def to_i
+    word.chars.map.with_index { |l, i| ALPHABET.index(l) * (MULTIPLIER**i) }.reduce(&:+)
+  end
+
   def preposition?
     (word.length == 4) && bar?(word[-1]) && !word.include?("h")
   end
@@ -55,19 +59,5 @@ class GooglonWord
     end
 
     self_size <=> other_size
-  end
-
-  def to_i
-    sum   = 0
-    index = 0
-
-    word.chars do |letter|
-      position = ALPHABET.index(letter) / 2
-
-      sum += (position * (MULTIPLIER**index))
-      index += 1
-    end
-
-    sum
   end
 end

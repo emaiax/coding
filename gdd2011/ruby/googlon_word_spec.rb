@@ -28,6 +28,10 @@ describe GooglonWord do
       it { expect(GooglonWord.new("hcvtlnm").beauty_number?).to be_truthy }
     end
 
+    describe "to_i" do
+      it { expect(GooglonWord.new("zhvk").to_i).to eql(96_891) }
+    end
+
     describe "<=>" do
       let(:last)  { GooglonWord.new("qqghh") }
       let(:first) { GooglonWord.new("qqwlwkzz") }
