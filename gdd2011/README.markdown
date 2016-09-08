@@ -1,4 +1,4 @@
-Google Developer Day Brasil 2011 (Ruby + RSpec)
+Google Developer Day Brasil 2011
 ===============================================
 
  **Atenção:** o período para resolver a provinha para o Google Developer Day Brasil 2011 já foi encerrado faz tempo! **:)**
@@ -18,7 +18,7 @@ Arqueólogos encontraram um pergaminho com os seguintes textos:
 
 Esses pergaminhos estão no antigo e misterioso idioma **Googlon**. Após muitos anos de estudo, os linguistas já conhecem algumas características desse idioma.
 
-Primeiramente, as letras Googlon são classificadas em dois grupos: as letras **z**, **g**, **v**, **h** e **b** são chamadas "**letras tipo *foo***", enquanto que as demais são conhecidas como "**letras tipo *bar***".
+Primeiramente, as letras Googlon são classificadas em dois grupos: as letras **z**, **g**, **v**, **h** e **b** são chamadas "letras tipo **foo**", enquanto que as demais são conhecidas como "letras tipo **bar**".
 
 Os linguistas descobriram que as preposições em Googlon são as palavras de 4 letras que terminam numa letra tipo bar, mas onde não ocorre a letra **h**.
 Portanto, é fácil ver que existem 62 preposições no Texto A. E no Texto B, quantas preposições existem?
@@ -59,7 +59,7 @@ Por exemplo, a palavra ***zhvk*** tem o valor numérico de ***96891***.
 
 **Obs:** *os números nesse problema podem ser grandes, então se você está usando um tipo de dados de tamanho limitado, tenha cuidado com possíveis overflows.*
 
-Os Googlons consideram um número bonito se ele satizfaz essas duas propriedades:
+Os Googlons consideram um número bonito se ele satisfaz essas duas propriedades:
 
 - é maior ou igual a 566839
 - é divisível por 4
@@ -75,19 +75,19 @@ Respostas
 
 E no Texto B, quantas preposições existem?
 
-`Resposta: Existem ***65*** preposições no Texto B.`
+`Resposta: Existem 65 preposições no Texto B.`
 
 Já no Texto B, quantos são os verbos?
 
-`Resposta: Há ***83*** verbos no Texto B.`
+`Resposta: Há 83 verbos no Texto B.`
 
 E quantos verbos do Texto B estão em primeira pessoa?
 
-`Resposta: Há ***21*** verbos em primeira pessoa no Texto B.`
+`Resposta: Há 21 verbos em primeira pessoa no Texto B.`
 
 E no Texto B, quantos números bonitos distintos existem?
 
-`Resposta: No Texto B, há ***81*** números bonitos distintos (atenção!).`
+`Resposta: No Texto B, há 81 números bonitos distintos (atenção!).`
 
 Como seria a lista de vocabulário do Texto B?
 
