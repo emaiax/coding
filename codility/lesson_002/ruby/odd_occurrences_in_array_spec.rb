@@ -36,8 +36,8 @@ Assume that:
 
 Complexity:
 
-expected worst-case time complexity is O(N);
-expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
+ - expected worst-case time complexity is O(N);
+ - expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
 
 Elements of input arrays can be modified.
 
