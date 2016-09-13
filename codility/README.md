@@ -11,6 +11,6 @@
 
 ### Lesson 3 - Time Complexity
 
-- [ ] [TapeEquilibrium](https://codility.com/programmers/task/tape_equilibrium)
-- [ ] [GrogJmp](https://codility.com/programmers/task/frog_jmp)
+- [x] [TapeEquilibrium](https://codility.com/programmers/task/tape_equilibrium)
+- [ ] [FrogJmp](https://codility.com/programmers/task/frog_jmp)
 - [ ] [PermMissingElem](https://codility.com/programmers/task/perm_missing_elem)
