@@ -13,4 +13,4 @@
 
 - [x] [TapeEquilibrium](https://codility.com/programmers/task/tape_equilibrium)
 - [x] [FrogJmp](https://codility.com/programmers/task/frog_jmp)
-- [ ] [PermMissingElem](https://codility.com/programmers/task/perm_missing_elem)
+- [x] [PermMissingElem](https://codility.com/programmers/task/perm_missing_elem)
