@@ -17,7 +17,7 @@
 
 ### Lesson 4 - Counting Elements
 
-- [ ] [PermCheck](https://codility.com/programmers/task/perm_check)
+- [x] [PermCheck](https://codility.com/programmers/task/perm_check)
 - [ ] [MissingInteger](https://codility.com/programmers/task/missing_integer)
 - [ ] [FrogRiverOne](https://codility.com/programmers/task/frog_river_one)
 - [ ] [MaxCounters](https://codility.com/programmers/task/max_counters)
