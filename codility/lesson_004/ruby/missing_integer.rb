@@ -66,29 +66,21 @@ Results:
 require_relative "../../../spec_helper"
 
 def solution(a)
-  x = 1
+  x = a.sort[0]
 
   a.sort.each do |i|
     return 0 unless x == i
-
     x += 1
   end
 
   1
 end
 
-RSpec.describe "PermCheck" do
-  it { expect(solution([1])).to eql(1) }
-  it { expect(solution([2])).to eql(0) }
-  it { expect(solution([1, 1])).to eql(0) }
-  it { expect(solution([2, 2])).to eql(0) }
-  it { expect(solution([2, 1])).to eql(1) }
-  it { expect(solution([1, 3])).to eql(0) }
-  it { expect(solution([3, 2])).to eql(0) }
-  it { expect(solution([100_000])).to eql(0) }
+RSpec.describe "MissingInteger" do
   it { expect(solution([4, 1, 3])).to eql(0) }
   it { expect(solution([4, 1, 3, 2])).to eql(1) }
   it { expect(solution((1..100_000).to_a.shuffle)).to eql(1) }
   it { expect(solution((2..100_000).to_a.shuffle)).to eql(0) }
-  it { expect(solution([(1..99).to_a << 99].flatten.shuffle)).to eql(0) }
 end
+
+
