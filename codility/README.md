@@ -24,3 +24,10 @@
 - [x] [MissingInteger](https://codility.com/programmers/task/missing_integer)
 - [x] [FrogRiverOne](https://codility.com/programmers/task/frog_river_one)
 - [x] [MaxCounters](https://codility.com/programmers/task/max_counters)
+
+### Lesson 5 - Prefix Sums
+
+- [ ] [CountDiv](https://codility.com/programmers/task/count_div)
+- [ ] [PassingCars](https://codility.com/programmers/task/passing_cards)
+- [ ] [MinAvgTwoSlice](https://codility.com/programmers/task/min_avg_two_slice)
+- [ ] [GenomicRangeQuery](https://codility.com/programmers/task/genomic_range_query)
