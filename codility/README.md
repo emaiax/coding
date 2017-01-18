@@ -1,7 +1,7 @@
 ## Codility
 
 ### Demo Test
-- [x] (Equi)(https://codility.com/demo/take-sample-test)
+- [x] [Equi](https://codility.com/demo/take-sample-test)
 
 ### Lesson 1 – Iterations
 
