@@ -22,5 +22,5 @@
 
 - [x] [PermCheck](https://codility.com/programmers/task/perm_check)
 - [x] [MissingInteger](https://codility.com/programmers/task/missing_integer)
-- [ ] [FrogRiverOne](https://codility.com/programmers/task/frog_river_one)
-- [ ] [MaxCounters](https://codility.com/programmers/task/max_counters)
+- [x] [FrogRiverOne](https://codility.com/programmers/task/frog_river_one)
+- [x] [MaxCounters](https://codility.com/programmers/task/max_counters)
