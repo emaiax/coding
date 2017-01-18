@@ -1,7 +1,9 @@
 class GooglonWord
-  FOO        = %w(z g v h b)
-  ALPHABET   = %w(q r v c h f t d b j m z k s n x w l g p)
-  MULTIPLIER = 20
+  FOO           = %w(z g v h b)
+  ALPHABET      = %w(q r v c h f t d b j m z k s n x w l g p)
+
+  MULTIPLIER    = 20
+  BEAUTY_NUMBER = 566_839
 
   include Comparable
 
@@ -36,7 +38,7 @@ class GooglonWord
   end
 
   def beauty_number?
-    to_i >= 566_839 && to_i % 4 == 0
+    to_i >= BEAUTY_NUMBER && to_i % 4 == 0
   end
 
   private
