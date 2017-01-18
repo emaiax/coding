@@ -1,5 +1,8 @@
 ## Codility
 
+### Demo Test
+- [x] (Equi)(https://codility.com/demo/take-sample-test)
+
 ### Lesson 1 – Iterations
 
 - [x] [BinaryGap](https://codility.com/programmers/task/binary_gap)
