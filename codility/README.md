@@ -27,7 +27,7 @@
 
 ### Lesson 5 - Prefix Sums
 
-- [ ] [CountDiv](https://codility.com/programmers/task/count_div)
+- [x] [CountDiv](https://codility.com/programmers/task/count_div)
 - [ ] [PassingCars](https://codility.com/programmers/task/passing_cards)
 - [ ] [MinAvgTwoSlice](https://codility.com/programmers/task/min_avg_two_slice)
 - [ ] [GenomicRangeQuery](https://codility.com/programmers/task/genomic_range_query)
