@@ -54,6 +54,7 @@ Results:
 require_relative "../spec_helper"
 
 def solution(a)
+  binding.pry
   return -1 if a.size == 0
 
   left_sum  = 0
