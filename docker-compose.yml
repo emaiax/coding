@@ -1,0 +1,14 @@
+version: "3"
+
+volumes:
+  ruby_bundle:
+    driver: local
+
+services:
+  ruby:
+    image: emaiax/ruby
+    command: /bin/bash
+    working_dir: /playground
+    volumes:
+      - ./:/playground
+      - ruby_bundle:/vendor/bundle
