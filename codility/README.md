@@ -28,6 +28,20 @@
 ### Lesson 5 - Prefix Sums
 
 - [x] [CountDiv](https://codility.com/programmers/task/count_div)
-- [ ] [PassingCars](https://codility.com/programmers/task/passing_cards)
-- [ ] [MinAvgTwoSlice](https://codility.com/programmers/task/min_avg_two_slice)
+- [x] [PassingCars](https://codility.com/programmers/task/passing_cards)
+- [x] [MinAvgTwoSlice](https://codility.com/programmers/task/min_avg_two_slice)
 - [ ] [GenomicRangeQuery](https://codility.com/programmers/task/genomic_range_query)
+
+### Lesson 6 - Sorting
+
+- [x] [MaxProductOfThree](https://app.codility.com/programmers/lessons/6-sorting/max_product_of_three/)
+- [x] [Distinct](https://app.codility.com/programmers/lessons/6-sorting/distinct/)
+- [x] [Triangle](https://app.codility.com/programmers/lessons/6-sorting/triangle/)
+- [x] [NumberOfDiscIntersections](https://app.codility.com/programmers/lessons/6-sorting/number_of_disc_intersections/)
+
+### Lesson 7 - Stacks and Queues
+
+- [ ] [Brackets](https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/)
+- [ ] [Fish](https://app.codility.com/programmers/lessons/7-stacks_and_queues/fish/)
+- [ ] [Nesting](https://app.codility.com/programmers/lessons/7-stacks_and_queues/nesting/)
+- [ ] [StoneWall](https://app.codility.com/programmers/lessons/7-stacks_and_queues/stone_wall/)
