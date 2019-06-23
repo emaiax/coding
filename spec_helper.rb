@@ -1,4 +1,6 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+require "pry"
+
 RSpec.configure do |config|
   config.color = true
 
