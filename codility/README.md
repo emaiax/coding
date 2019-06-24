@@ -41,7 +41,7 @@
 
 ### Lesson 7 - Stacks and Queues
 
-- [ ] [Brackets](https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/)
+- [x] [Brackets](https://app.codility.com/programmers/lessons/7-stacks_and_queues/brackets/)
 - [ ] [Fish](https://app.codility.com/programmers/lessons/7-stacks_and_queues/fish/)
 - [ ] [Nesting](https://app.codility.com/programmers/lessons/7-stacks_and_queues/nesting/)
 - [ ] [StoneWall](https://app.codility.com/programmers/lessons/7-stacks_and_queues/stone_wall/)
