@@ -31,83 +31,77 @@ Fonte: http://www.dcc.fc.up.pt/oni/problemas/2010/qualificacao/probB.html
 
 require_relative "../spec_helper"
 
-Point = Struct.new(:x, :y, :what)
+class City
+  attr_reader :days, :blocks, :airports
 
-class Board
-  attr_reader :days
-
-  def initialize(width, height, airports, clouds)
+  def initialize(width, height)
     @days = 0
     @width = width
     @height = height
-    @clouds = clouds
-    @airports = airports
+    @airports = 0
+
+    @blocks = Array.new(width) { Array.new(height) }
   end
 
   def next_day
-    @day += 1
+    @days += 1
 
-    # . . * . . . * *      . * * * . * * *     * * * * * * * *
-    # . * * . . . . .      * * * * . . * *     * * * * * * * *
-    # * * * . A . . A      * * * * A . . A     * * * * * . * *
-    # . * . . . . . .  ->  * * * . . . . .  -> * * * * . . . .
-    # . * . . . . A .      * * * . . . A .     * * * * . . A .
-    # . . . A . . . .      . * . A . . . .     * * * A . . . .
-    # . . . . . . . .      . . . . . . . .     . * . . . . . .
-    #      Dia 1                Dia 2               Dia 3
-    #
-    clouds.each do |cloud|
-      unless clouds.detect { |c| c.x cloud.x + 1 && cloud.y + 1 }
-        clouds << Point.new(cloud.x + 1, cloud.y + 1)
+    (0...@width).each do |x|
+      (0...@height).each do |y|
+        if @blocks[x][y] == "C"
+          add(x + 1, y, "C")
+          add(x - 1, y, "C")
+          add(x, y + 1, "C")
+          add(x, y - 1, "C")
+        end
       end
+    end
+  end
 
-      unless clouds.detect { |c| c.x cloud.x - 1 && cloud.y - 1 }
-        clouds << Point.new(cloud.x - 1, cloud.y - 1)
-      end
-    end while airports.count > 0
+  def add(x, y, kind)
+    return if x >= @width or y >= @height
+
+    @airports += 1 if kind == "A"
+    @airports -= 1 if kind == "C" and @blocks[x][y] == "A"
+
+    @blocks[x][y] = kind
+  rescue => e
+    binding.pry
   end
 
   def end_game
-    next_day while airports.count > 0
+    next_day while airports > 0
+    @days
   end
 end
 
 RSpec.describe "NuvemDeCinzas" do
   describe "example" do
-    let(:airports) do
-      [
-        Point.new(5, 3),
-        Point.new(8, 3),
-        Point.new(7, 5),
-        Point.new(4, 6)
-      ]
+    before do
+      subject.add(2, 4, "A")
+      subject.add(2, 7, "A")
+      subject.add(4, 6, "A")
+      subject.add(5, 3, "A")
+
+      subject.add(0, 2, "C")
+      subject.add(0, 6, "C")
+      subject.add(0, 7, "C")
+      subject.add(1, 1, "C")
+      subject.add(1, 2, "C")
+      subject.add(2, 0, "C")
+      subject.add(2, 1, "C")
+      subject.add(2, 2, "C")
+      subject.add(3, 1, "C")
+      subject.add(4, 1, "C")
     end
 
-    let(:clouds) do
-      [
-        Point.new(3, 1),
-        Point.new(7, 1),
-        Point.new(8, 1),
-        Point.new(2, 2),
-        Point.new(3, 2),
-        Point.new(1, 3),
-        Point.new(2, 3),
-        Point.new(3, 3),
-        Point.new(2, 4),
-        Point.new(2, 5)
-      ]
-    end
+    subject { City.new(8, 7) }
 
-    subject { Board.new(8, 7, airports, clouds) }
-
-    it { expect(subject.end_game).to eql(4) }
+    it { expect(subject.end_game).to eql(5) }
   end
 
   describe "no airports" do
-    let(:clouds) { [ ] }
-    let(:airports) { [ ] }
-
-    subject { Board.new(8, 7, airports, clouds) }
+    subject { City.new(8, 7) }
 
     it { expect(subject.end_game).to eql(0) }
   end
